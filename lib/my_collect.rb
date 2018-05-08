@@ -7,3 +7,7 @@ def collect(collection)
     i = i + 1
   end
 end
+
+collect(["hello", "hello2"]) do |name|
+  name+="2"
+end
